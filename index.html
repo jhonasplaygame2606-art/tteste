@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Runner Game</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Three.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.154.0/build/three.min.js"></script>
+</head>
+<body>
+  <div id="ui">
+    <h1>Runner Game</h1>
+    <div id="score">Pontuação: <span id="scoreValue">0</span></div>
+    <div id="instructions">Use ← → para mover, Espaço para pular. Clique em START para começar.</div>
+    <div id="buttons">
+      <button id="startBtn">START</button>
+      <button id="restartBtn" style="display:none">REINICIAR</button>
+    </div>
+    <div id="footer">Rodando via GitHub Pages — feito por você</div>
+  </div>
+  <div id="game-container"></div>
+  <script src="script.js"></script>
+</body>
+</html>
